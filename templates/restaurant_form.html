@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./restaurant form.css">     
+</head>
+<body>
+   <div class="form"> 
+      <h1>Sign up </h1>
+     <form action="./restaurant.html">
+     <label for="name">Customer's Name</label>
+     <br>
+     <input type="text" name="Customer's Name" id="name">
+     <br>
+     
+     <label for="qu"> User's Password</label>
+     <br>
+     <input type="password" id="userpassword">
+     <br> 
+
+    <label for="user's email">Email address</label>
+    <br>
+    <input type="text" id="user's email">
+    <br>
+
+    <label for="Location">Location</label>
+    <br>
+    <input list="state-list" name="location-list" >
+    <datalist id="state-list" name="location-list" step="1">
+        <option value="Abia">
+        <option value="Adamanwa">
+        <option value="Akwa Ibom">
+        <option value="Anambra">
+        <option value="Bauchi">
+        <option value="Bayselsa">
+        <option value="Benue">
+        <option value="Borno">
+        <option value="Cross-river">
+        <option value="Delta">
+        <option value="Ebonyi">
+        <option value="Edo">
+        <option value="Ekiti">
+        <option value="Enugu">
+        <option value="Gombe">
+        <option value="Imo">
+        <option value="Jigawa">
+        <option value="Kaduna">
+        <option value="Katsina">
+        <option value="Kano">
+        <option value="Kebbi"> 
+        <option value="Kogi">
+        <option value="Kwara">
+        <option value="Lagos">
+        <option value="Nasawara">
+        <option value="Niger">
+        <option value="Ogun">
+        <option value="Ondo">
+        <option value="Osun">
+        <option value="Oyo">
+        <option value="Plateu">
+        <option value="Rivers">
+        <option value="Sokoto">    
+        <option value="Taraba">
+        <option value="Yobe">  
+        <option value="Zamfara"> 
+        <option value="Abuja">                                                                                          <option value="">
+    </datalist>
+     <br>
+     <label for="Choice of Food">Choice of food</label>
+     <br>
+     <input list="food-list" name="Food-list" step="1">
+     <datalist id="food-list" name="Food-list">
+          <option value="Jellof rice and fried chicken">
+          <option value="Eba and egusi soup">
+          <option value="Beans and roasted plantain">
+          <option value="Spaghetti and fried chicken">
+          <option value="Fried rice,salad and chicken">
+          <option value="Akpu and onugbu soup">
+          <option value="African salad(Abacha)">
+          <option value="Breadfriut(ukwa)">
+          <option value="Pepper soup">
+          <option value="Yam and egg sauce">
+          <option value="Pizza">
+          <option value="Meat-Pie">
+          <option value="Okpa">
+          <option value="Moi-Moi">
+          <option value="Sharwama">
+          <option value="Suya">
+          <option value="Zobo">
+          <option value="Soya milk">
+          <option value="Chilled drink">
+          <option value="Chilled wine">
+          <option value="Palm wine">
+     </datalist>
+       
+</form>
+     <button onclick="displayPayment()">Pay Now</button> 
+ </div>
+     <script>
+         function displayPayment() {
+            alert("Payment Successful")
+         }
+         
+     </script>
+    
+</body>
+</html>
